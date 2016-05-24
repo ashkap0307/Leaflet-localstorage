@@ -8,7 +8,10 @@ $tr = Net_Traceroute::factory();
 
 if(!PEAR::isError($tr)) 
 {
-	 $hostname = $_GET['hostname'];
+	 $hostname = isset($_GET['hostname'])? $_GET['hostname']:null;
+	 if(!$hostname){
+	 	echo "Please hostname value in string query..";
+	 }
 	 $flag = true;
 	 $data = array();
       // trace route to host and get response
