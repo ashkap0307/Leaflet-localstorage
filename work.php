@@ -5,7 +5,7 @@ echo "Working..";
 include("Traceroute.php");
 
 // create object instance
-/*
+
 $tr = Net_Traceroute::factory();
 if(!PEAR::isError($tr)) 
 {
