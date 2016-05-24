@@ -1,0 +1,16 @@
+{
+  "name": "Leaftlet-localstorage",
+  "description": "Demo project on leaflet and localstorage",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
