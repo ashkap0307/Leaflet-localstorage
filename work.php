@@ -1,9 +1,9 @@
 <?php
 echo "Working..";
 // include class file
-/*
-include("Traceroute.php");
 
+include("Traceroute.php");
+/*
 // create object instance
 $tr = Net_Traceroute::factory();
 
