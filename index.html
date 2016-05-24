@@ -311,7 +311,7 @@ $('#check').click(function(){
 	   //clear localStorage to input fresh data.
 	    localStorage.clear();
 		//make a get request to work.php for ip address of routes.
-		$.get('http://localhost/miniproject1/work.php',{hostname:hostname.value},function(data){
+		$.get('work.php',{hostname:hostname.value},function(data){
 		ar = JSON.parse(data); //store into array of ips after parsing the json array retured.
 		console.log(ar);
 		//console.log(ar.length)
