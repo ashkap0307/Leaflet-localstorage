@@ -5,8 +5,8 @@ echo "Working..";
 include("Traceroute.php");
 
 // create object instance
-$tr = Net_Traceroute::factory();
 /*
+$tr = Net_Traceroute::factory();
 if(!PEAR::isError($tr)) 
 {
 	 $hostname = isset($_GET['hostname'])? $_GET['hostname']:null;
