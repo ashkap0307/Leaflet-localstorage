@@ -1,5 +1,5 @@
 <?php
-
+echo "Working..";
 // include class file
 include("Traceroute.php");
 
