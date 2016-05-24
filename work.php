@@ -1,6 +1,7 @@
 <?php
 echo "Working..";
 // include class file
+/*
 include("Traceroute.php");
 
 // create object instance
@@ -34,5 +35,5 @@ foreach($data as $v){
       // print response
  echo json_encode($ip);
 }
-  
+ */
 ?>
